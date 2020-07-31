@@ -1,20 +1,25 @@
 # Pulumi GKE Sample
 
-The purpose of this repo is to use Pulumi to create a GKE cluster in Google Cloud.
+The purpose of this repo is to use the Pulumi Python runtime (>= Python 3.7) to create a GKE cluster in Google Cloud.
 
 It is based on the instructions found [here](https://www.pulumi.com/docs/tutorials/gcp/gcp-py-gke/).
 
-> **NOTE:** The Pulumi docs are based on the Terraform docs, so that comes in very handy
+> **NOTE:** The Pulumi docs are based on the Terraform docs, so that comes in very handy if you can't make heads or tails of the crappy Pulumi docs. See references section below for more info.
+
+## Pre-requisites
+
+* [Homebrew](https://brew.sh)
 
 ## Getting Started
 
-1. Install Pulumi:
+1. Install Pulumi and Python using [Homebrew](https://brew.sh):
 
     ```bash
     brew install pulumi
+    brew install python
     ```
 
-2. Set up the [Python virtual env](https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref):
+2. Set up the [Python virtual environment](https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref):
 
     ```bash
     pip install --upgrade --force-reinstall virtualenv
