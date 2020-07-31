@@ -20,7 +20,7 @@ It is based on the instructions found [here](https://www.pulumi.com/docs/tutoria
     pip install --upgrade --force-reinstall virtualenv
     virtualenv venv
     virtualenv -p venv/bin/python
-    source  venv/bin/activate.fish
+    source  venv/bin/activate
     python -m pip install --upgrade pip
     pip install --upgrade --force-reinstall -r requirements.txt
     ```
