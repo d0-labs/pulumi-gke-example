@@ -1,0 +1,6 @@
+name: pulumi-gke-test
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: A Google Kubernetes Engine (GKE) cluster, with canary deployment

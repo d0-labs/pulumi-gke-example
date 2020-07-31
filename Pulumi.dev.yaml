@@ -1,0 +1,8 @@
+config:
+  pulumi-gke-test:cluster_name: pulumi-gke
+  pulumi-gke-test:disk_size_gb: "30"
+  pulumi-gke-test:disk_type: pd-standard
+  pulumi-gke-test:image_type: COS
+  pulumi-gke-test:master_version: 1.16.9
+  pulumi-gke-test:node_count: "1"
+  pulumi-gke-test:node_machine_type: g1-small
